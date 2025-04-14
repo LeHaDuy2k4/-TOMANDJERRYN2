@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
         resultDiv.innerHTML = `
             <ul>
-                <li>Duy</li>
-                <li>Đạm</li>
-                <li>Hành</li>
+                <li>
+                    <strong>Hành</strong><br>
+                    <img src="images/hanh.jpg" alt="Hành" width="120">
+                </li>
             </ul>
         `;
     });
